@@ -1,24 +1,27 @@
-# zeta-operator
-Symbolic-regression AI workflow that derives a Hermitian operator reproducing the first 50 Riemann zeta zeros. Patent pending SA 2025/0XXXX.
-# zeta-operator
+# Zeta Operator
 
-> **Patent Pending – South Africa Provisional No. 2025/0XXXX (filed 27 June 2025)**
+This repository contains an AI-assisted symbolic regression workflow that derives an analytic Hermitian operator 
+whose spectrum approximates the first 50 non-trivial Riemann zeta function zeros.
 
-This repository contains a reproducible demo of the AI-assisted workflow that
-derives an analytic Hermitian quantum operator whose low-lying spectrum matches
-The non-trivial zeros of the Riemann zeta function.
+## Patent Status
 
-*Pre-print:* `arXiv:YYMM.NNNNN` (to be released)  
-*Lead author:* **Mqhele Sithole** – boababassetholdings@gmail.com  
+- **Patent Pending – South Africa Provisional No. 2025/XXXXX (filed 27 June 2025)**
 
-## Quick start
+## Contents
 
-```bash
-# clone
-git clone https://github.com/Mqhele-dot/zeta-operator.git
-cd zeta-operator
+- `rh_quantum_operator_notebook.ipynb` – The main computational notebook.
+- `rh_quantum_operator.py` – A script version of the notebook.
+- `LICENSE` – MIT license.
+- `README.md` – This file.
 
-# create an environment
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
+## Getting Started
+
+To reproduce the results:
+1. Clone the repo
+2. Install dependencies in a virtual environment
+3. Run the Jupyter notebook or script
+
+## Contact
+
+Lead author: **Mqhele Sithole**  
+Email: [boababassetholdings@gmail.com](mailto:boababassetholdings@gmail.com)
